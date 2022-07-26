@@ -1,0 +1,27 @@
+{
+  "name": "replace-ts-paths-same-name-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "replace": "resolve-tspaths -o dist -s src",
+    "build": "swc src --out-dir dist --ignore dist,node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForestBeaver/replace-ts-paths-same-name-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForestBeaver/replace-ts-paths-same-name-example/issues"
+  },
+  "homepage": "https://github.com/ForestBeaver/replace-ts-paths-same-name-example#readme",
+  "dependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.218",
+    "resolve-tspaths": "^0.7.1",
+    "typescript": "^4.7.4"
+  }
+}
